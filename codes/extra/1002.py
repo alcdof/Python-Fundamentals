@@ -14,7 +14,5 @@ Input Samples	Output Samples
 150.00          A=70685.7750
 '''
 
-import numpy as np
-
 R = float(input())
 print(f"A = {3.14159 * R**2:.4f}")
