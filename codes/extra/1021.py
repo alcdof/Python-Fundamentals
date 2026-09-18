@@ -4,7 +4,6 @@ total = float(input())
 #         um jeito de automatizar esses cálculos, usando alguma 
 #         estrutura de repetição. Mas tá funcionando. Feio, mas funcionando.
 
-
 notas_100 = total // 100
 notas_50 = (total % 100) // 50
 notas_20 = ((total % 100) % 50) // 20
@@ -16,7 +15,7 @@ moedas_50 = (((((((total % 100) % 50) % 20) % 10) % 5) % 2) % 1) // 0.5
 moedas_25 = ((((((((total % 100) % 50) % 20) % 10) % 5) % 2) % 1) % 0.5) // 0.25
 moedas_10 = (((((((((total % 100) % 50) % 20) % 10) % 5) % 2) % 1) % 0.5) % 0.25) // 0.10
 moedas_05 = ((((((((((total % 100) % 50) % 20) % 10) % 5) % 2) % 1) % 0.5) % 0.25) % 0.10) // 0.05
-moedas_01 = (((((((((((total % 100) % 50) % 20) % 10) % 5) % 2) % 1) % 0.5) % 0.25) % 0.10) % 0.05) // 0.01
+moedas_01 = (((((((((((total % 100) % 50) % 20) % 10) % 5) % 2) % 1) % 0.5) % 0.25) % 0.10) % 0.05) / 0.01
 
 print(f"NOTAS:")
 print(f"{int(notas_100)} notas de 100")
