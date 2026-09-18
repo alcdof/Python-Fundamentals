@@ -17,4 +17,3 @@ if totalHours == 0 and totalMinutes == 0:
     totalHours = 24
 
 print(f"O JOGO DUROU {totalHours} HORA(S) E {totalMinutes} MINUTO(S)")
-
