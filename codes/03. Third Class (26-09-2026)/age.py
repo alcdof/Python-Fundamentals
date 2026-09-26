@@ -12,3 +12,5 @@ elif age >= 61 and age <= 80:
     print("Idoso")
 elif age > 80:
     print("Longevo")
+else:
+    print("Idade inválida")
