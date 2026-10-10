@@ -1,0 +1,31 @@
+originais = [2, 3, 5, 13, 17, 19, 23, 29, 43, 47]
+
+print("Originais:", originais)
+
+N = int(input("Quantos números deseja inserir? "))
+
+for i in range(N): 
+    j = 0
+    num = int(input())
+
+    if(num > originais[-1]):
+        originais.append(num)
+    else:
+        while(originais[j] < num):
+            j += 1
+        originais.insert(j, num);
+
+    print(originais)
+
+"""
+originais.insert(3, 7)
+originais.insert(4, 11)
+
+print("Após inserir 7 e 11:", originais)
+
+originais.insert(10, 31)
+originais.insert(11, 37)
+originais.insert(12, 41)
+
+print("Após inserir 31, 37 e 41:", originais)
+"""
