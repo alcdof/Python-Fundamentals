@@ -1,0 +1,29 @@
+fila_supermercado = []
+
+print(f"Fila vazia: ", fila_supermercado)
+
+fila_supermercado.append('Fank')
+
+print(f"Chegou {fila_supermercado[0]}: ", fila_supermercado)
+
+fila_supermercado.extend(['Xutes', 'Belks'])
+
+print(f"Chegaram {fila_supermercado[1]} e {fila_supermercado[2]}: ", fila_supermercado)
+
+print(f"{fila_supermercado.pop(0)} foi atendido: {fila_supermercado}")
+
+fila_supermercado.append('Natalino')
+
+print(f"Chegou {fila_supermercado[2]}: {fila_supermercado}")
+
+fila_supermercado.append('Colibri')
+
+print(f"Chegou {fila_supermercado[3]}: {fila_supermercado}")
+
+fila_supermercado.append('Antonela')
+
+print(f"Chegou {fila_supermercado[4]}: {fila_supermercado}")
+
+print(f"{fila_supermercado.pop()} desistiu: {fila_supermercado}")
+
+print(f"{fila_supermercado.pop(2)} também desistiu: {fila_supermercado}")
